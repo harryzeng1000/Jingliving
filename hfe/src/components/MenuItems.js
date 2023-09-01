@@ -18,6 +18,12 @@ export const MenuItems = [
     icon: "fa-solid fa-briefcase"
   },
   {
+    title: "Product",
+    url: "/product",
+    cName: "nav-links",
+    icon: "fa-solid fa-briefcase"
+  },
+  {
     title: "Contact",
     url: "/contact",
     cName: "nav-links",
@@ -27,5 +33,6 @@ export const MenuItems = [
     title: "Sign Up",
     url: "/home",
     cName: "nav-links-mobile"
-  }
+  },
+  
 ];

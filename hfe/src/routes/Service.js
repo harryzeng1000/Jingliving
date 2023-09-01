@@ -13,6 +13,7 @@ function Service() {
         heroImg={AboutImg}
         title="Service"
         btnClass="hide"
+        secondBtnClass="hide"
       />
       <Trip />
       <Footer />

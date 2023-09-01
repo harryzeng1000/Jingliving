@@ -34,14 +34,30 @@
   transition: 0.3s ease-in-out;
 }
 
-.t-card:hover img {
+/* .t-card:hover img {
   transform: scale(1.3);
   overflow: hidden;
-}
+} */
 
 .t-card h4 {
   font-size: 1.3rem;
   padding: 0.9rem 0 0.2rem 0;
+}
+.more-info-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #2a2a2a; /* 或您选择的任何颜色 */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; /* 移除默认的下划线 */
+  transition: background-color 0.3s ease;
+}
+
+.more-info-btn:hover {
+  background-color: #1a1a1a; /* 鼠标悬停时的颜色，可以自定义 */
 }
 
 @media screen and (max-width: 850px) {

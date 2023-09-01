@@ -1,41 +1,52 @@
-.form-container {
-  margin: 4rem 6rem;
-  color: #2a2a2a;
-}
-
-.form-container form {
-  padding-top: 3rem;
+.Contcard {
+  margin-top: 3rem;
   display: flex;
-  flex-direction: column;
-  width: 50%;
-  margin: auto;
+  justify-content: space-between;
 }
 
-.form-container input {
-  height: 3rem;
-  padding: 0 1rem;
-  margin-bottom: 2rem;
-  border-radius: 0.3rem;
-  border: 1px solid #250e0e;
+.I-card {
+  width: 32%;
+  text-align: center;  /* 设置为居中 */
+  box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.11);
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 1rem 0.8rem;
 }
 
-.form-container textarea {
-  padding: 1rem;
-  margin-bottom: 2rem;
-  border-radius: 0.3rem;
-  border: 1px solid #250e0e;
+.I-image {
+  height: calc(35vw * (1200/ 1200));  
+  overflow: hidden;
+  border-radius: 7px;
 }
 
-.form-container button {
-  display: inline;
+.I-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.contact-info {
+  margin: 10px 0; /* 上下增加10px的margin */
+}
+
+/* 去除图片缩放效果 */
+.I-card:hover img {
+  transform: none;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 850px) {
-  .form-container {
+  .Cont {
     margin: 4rem 2rem;
   }
-  .form-container form {
-    padding-top: 2rem;
-    width: 90%;
+  .Contcard {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .I-card {
+    margin-bottom: 1.5rem;
+    width: 100%;
   }
 }

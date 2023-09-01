@@ -1,8 +1,8 @@
 import Navbar from "../components/Navbar";
 import HomeHero from "../components/HomeHero";
-import AboutImg from "../assets/2.jpg";
-import ContactForm from "../components/ContactForm";
+import AboutImg from "../assets/Contact.jpg";
 import Footer from "../components/Footer";
+import ContactForm from "../components/Contacts";
 
 function Contact() {
   return (
@@ -13,6 +13,7 @@ function Contact() {
         heroImg={AboutImg}
         title="Contact"
         btnClass="hide"
+        secondBtnClass="hide"
       />
       <ContactForm />
       <Footer />

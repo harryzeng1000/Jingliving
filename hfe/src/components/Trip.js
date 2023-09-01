@@ -7,26 +7,26 @@ import Trip3 from "../assets/6.jpg";
 function Trip() {
   return (
     <div className="trip">
-      <h1>Recent Trips</h1>
-      <p>You can discover unique destinations using Google Maps.</p>
+      <h1>Online Shop</h1>
+      <p>You can discover our saunas room using this link.</p>
       <div className="tripcard">
         <TripData
           image={Trip1}
-          heading="Trip in Indonesia"
-          text="Indonesia, officially the Republic of Indonesia, is a country in
-          Southeast Asia and Oceania between the Indian and Pacific oceans. It
-          consists of over 17,000 islands, including Sumatra, Java, Sulawesi,
-          and parts of Borneo and New Guinea."
+          heading="Walmart"
+          text=""
+          url="https://www.walmart.com/ip/Hongyuan-Single-Person-EXTENDABLE-Indoor-FAR-Infrared-Heating-Sauna-Bluetooth-Compatible/2134271801"
         />
         <TripData
           image={Trip2}
-          heading="Trip in Malaysia"
-          text="Malaysia is a Southeast Asian country occupying parts of the Malay Peninsula and the island of Borneo. It's known for its beaches, rainforests and mix of Malay, Chinese, Indian and European cultural influences."
+          heading="Wayfair"
+          text=""
+          url="https://www.wayfair.com/outdoor/pdp/royal-saunas-hongyuan-hongyuan-1-person-indoor-bluetooth-compatible-low-emf-far-infrared-in-okoume-hemlock-rshy1017.html"
         />
         <TripData
           image={Trip3}
-          heading="Trip in France"
-          text="France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches. Paris, its capital, is famed for its fashion houses, classical art museums including the Louvre and monuments like the Eiffel Tower."
+          heading="Amazon"
+          text=""
+          url="https://www.amazon.com/s?i=merchant-items&me=A15Y5R1CE0IPTP"
         />
       </div>
     </div>

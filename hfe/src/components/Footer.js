@@ -7,52 +7,27 @@ const Footer = () => {
         <div className="top">
           <div>
             <h1>JingLiving</h1>
-            <p>Choose your favourite destination.</p>
+            <p>Choose your favourite Saunas Tools.</p>
           </div>
           <div>
-            <a href="https://fontawesome.com/">
-              <i className="fa-brands fa-facebook-square"></i>
+            <a href="https://www.amazon.com/Royal-Saunas-Extensible-Infrared-Sauna/dp/B08B4FP6FM/ref=sr_1_5?keywords=Royal+Saunas&qid=1693568936&sr=8-5">
+              <i className="fa-brands fa-amazon"></i>
             </a>
-            <a href="https://fontawesome.com/">
-              <i className="fa-brands fa-instagram-square"></i>
+            <a href="">
+              <i className="fa-solid fa-phone"></i>
             </a>
-            <a href="https://fontawesome.com/">
-              <i className="fa-brands fa-behance-square"></i>
+            <a href="">
+              <i className="fa-brands fa-weixin"></i>
             </a>
-            <a href="https://fontawesome.com/">
+            <a href="">
               <i className="fa-brands fa-twitter-square"></i>
             </a>
           </div>
         </div>
-
-        <div className="bottom">
-          <div>
-            <h4>Project</h4>
-            <a href="https://fontawesome.com/">Changelog</a>
-            <a href="https://fontawesome.com/">Status</a>
-            <a href="https://fontawesome.com/">License</a>
-            <a href="https://fontawesome.com/">All Versions</a>
-          </div>
-          <div>
-            <h4>Community</h4>
-            <a href="https://fontawesome.com/">GitHub</a>
-            <a href="https://fontawesome.com/">Issues</a>
-            <a href="https://fontawesome.com/">Project</a>
-            <a href="https://fontawesome.com/"> Twitter</a>
-          </div>
-          <div>
-            <h4>Help</h4>
-            <a href="https://fontawesome.com/">Support</a>
-            <a href="https://fontawesome.com/">Troubleshooting</a>
-            <a href="https://fontawesome.com/">Contact Us</a>
-          </div>
-          <div>
-            <h4>Others</h4>
-            <a href="https://fontawesome.com/">Terms of Service</a>
-            <a href="https://fontawesome.com/">Privacy Policy</a>
-            <a href="https://fontawesome.com/">License</a>
-          </div>
-        </div>
+        <footer className="footer">
+          @copy; 2023 JingLiving, Inc. All rights reserved.
+        </footer>
+        
       </div>
     </>
   );

@@ -11,10 +11,11 @@ function HomeHero(props) {
           <a className={props.btnClass} href={props.url}>
             {props.buttonText}
           </a>
+          {/* Add another button text beside the existing one */}
+          <b className={props.secondBtnClass} href={props.secondUrl}>
+            {props.secondButtonText}
+          </b>
         </div>
-        {/* <h1>Your Journey Your Story</h1>
-        <p>Choose Your Favourite Destination.</p>
-        <a href="index.html">Travel Plan</a> */}
       </div>
     </>
   );
