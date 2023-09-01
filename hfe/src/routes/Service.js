@@ -1,23 +1,23 @@
 import Navbar from "../components/Navbar";
 import HomeHero from "../components/HomeHero";
-import AboutUs from "../components/AboutUs";
-import Footer from "../components/Footer";
 import AboutImg from "../assets/night.jpg";
+import Footer from "../components/Footer";
+import Trip from "../components/Trip";
 
-function About() {
+function Service() {
   return (
     <>
       <Navbar />
       <HomeHero
         cName="hero-mid"
         heroImg={AboutImg}
-        title="About"
+        title="Service"
         btnClass="hide"
       />
-      <AboutUs />
+      <Trip />
       <Footer />
     </>
   );
 }
 
-export default About;
+export default Service;
