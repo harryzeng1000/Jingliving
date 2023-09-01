@@ -12,11 +12,10 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarItems">
-        <h1 className="navbar-logo">Trippy</h1>
+        <h1 className="navbar-logo">JingLiving</h1>
         <div className="menu-icons" onClick={this.handleClick}>
           <i
-            className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
-          ></i>
+            className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
 
         <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
